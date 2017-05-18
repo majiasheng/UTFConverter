@@ -1,0 +1,10 @@
+gitp.sh
+*.swp
+*~
+bin/
+build/
+utility/
+hw*
+HW*
+rsrc/
+

@@ -1,0 +1,10 @@
+static struct option long_options[] = {
+		/* verbose flag
+		{"v", no_argument, &verbose_flag, verbose_flag++},*/
+		/* option */
+		{"help", no_argument, 0, 'h'},
+		{"h", no_argument, 0, 'h'},
+		{"UTF=", required_argument, 0, 'u'},
+		
+		{0, 0, 0, 0}
+};
